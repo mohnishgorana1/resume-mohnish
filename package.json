@@ -15,6 +15,8 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "chalk": "^5.6.2"
+    "cfonts": "^3.3.1",
+    "chalk": "^5.6.2",
+    "figlet": "^1.9.1"
   }
 }
