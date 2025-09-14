@@ -53,17 +53,10 @@ console.log(divider);
 
 // SKILLS
 console.log(chalk.bold.cyan("\n⚡ Technical Skills:"));
-console.log(
-  chalk.white("• Languages & Frameworks: ") +
-    "JavaScript, React.js, Node.js, TypeScript, Next.js, Express.js, Tailwind CSS"
+console.log(chalk.bold.white("• Languages & Frameworks: ") + "JavaScript, React.js, Node.js, TypeScript, Next.js, Express.js, Tailwind CSS"
 );
-console.log(
-  chalk.white("• Libraries & Tools: ") +
-    "Redux, RTK, React-Redux, Express, MongoDB, Mongoose, Git, GitHub"
-);
-console.log(
-  chalk.white("• Third-Party Services: ") + "Cloudinary, Appwrite, Supabase\n"
-);
+console.log(chalk.bold.white("• Libraries & Tools: ") + "Redux, RTK, React-Redux, Express, MongoDB, Mongoose, Git, GitHub");
+console.log(chalk.bold.white("• Third-Party Services: ") + "Cloudinary, Appwrite, Supabase\n");
 
 console.log(divider);
 
@@ -71,14 +64,14 @@ console.log(divider);
 console.log(chalk.bold.cyan("\n🎓 Education:"));
 
 console.log(
-  chalk.white("• Master of Computer Applications (MCA)") +
+  chalk.bold.white("• Master of Computer Applications (MCA)") +
     "\n   Gyanodaya Institute of Professional Studies, Neemuch" +
     "\n   (RGPV Bhopal, 2022-2024)" +
     "\n   CGPA: 8.07\n"
 );
 
 console.log(
-  chalk.white("• Bachelor of Science (B.Sc.) in Computer Science") +
+  chalk.bold.white("• Bachelor of Science (B.Sc) in Computer Science") +
     "\n   Balkavi Bairagee Mahavidhyalaya, Neemuch" +
     "\n   (Vikram University, 2018-2021)" +
     "\n   Percentage: 78.97%\n"
@@ -93,7 +86,7 @@ console.log(chalk.bold.cyan("\n📂 Projects:\n"));
 console.log(
   chalk.bold("• Examify") +
     " - " +
-    chalk.underline.blue("https://examify-online.vercel.app")
+    chalk.underline.blueBright("https://examify-online.vercel.app")
 );
 console.log(
   "   A full-stack online examination platform with microservices architecture and role-based access control."
@@ -110,7 +103,7 @@ console.log(
 console.log(
   chalk.bold("• CareerHub") +
     " - " +
-    chalk.underline.blue("https://career-hub-sooty.vercel.app")
+    chalk.underline.blueBright("https://career-hub-sooty.vercel.app")
 );
 console.log("   Job portal with backend & frontend, Clerk authentication.");
 console.log(
@@ -127,7 +120,7 @@ console.log(
 console.log(
   chalk.bold("• DocStream") +
     " - " +
-    chalk.underline.blue("https://docstream.vercel.app")
+    chalk.underline.blueBright("https://docstream.vercel.app")
 );
 console.log(
   "   Cloud-based file management solution with real-time collaboration."
