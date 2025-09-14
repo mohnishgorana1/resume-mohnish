@@ -1,6 +1,6 @@
 {
   "name": "mohnish-gorana",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resume of Mohnish Gorana published as an npm package",
   "bin": {
     "mohnish-gorana": "index.js"
